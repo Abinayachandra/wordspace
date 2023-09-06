@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Personaldetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/policelogo"
+            android:layout_marginLeft="30dp"
+            android:layout_height="100dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/tv_personal_details1"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textSize="20dp"
+                android:textColor="#00897B"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/tv_personal_details2"
+
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:textColor="#00897B"
+
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@drawable/policebrikbg"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#A50404"
+            android:gravity="center"
+            android:text="Personal details :"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+        <EditText
+            android:id="@+id/Ed_personal_dts_name1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#fff"
+            android:paddingLeft="10dp"
+            android:textColor="#00897B"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Name"/>
+        <EditText
+            android:id="@+id/Ed_personal_details_mlbnumber2"
+
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:textColor="#00897B"
+            android:paddingLeft="10dp"
+            android:hint="Mobile Number"/>
+        <EditText
+            android:id="@+id/personaldts_emailid1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="#fff"
+            android:textColor="#00897B"
+            android:hint="E-Mail ID"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:layout_marginTop="10dp"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="150dp"
+               android:layout_height="match_parent"
+               android:text="Date :"
+               android:textSize="25dp"
+               android:gravity="center"
+               android:textStyle="bold"
+               android:textColor="#fff"
+               android:background="#A50404"/>
+           <EditText
+               android:id="@+id/personal_date"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="#fff"
+               android:gravity="center"
+               android:textColor="#00897B"
+               android:layout_marginLeft="20dp"
+               android:textSize="20dp"
+               android:paddingLeft="10dp"/>
+
+
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="GENDER :"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:background="#A50404"/>
+            <Spinner
+                android:id="@+id/personal_gender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:textColor="#00897B"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/ed_city_personal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#00897B"
+            android:paddingLeft="10dp"
+            android:background="#fff"
+            android:hint="City"/>
+        <Button
+            android:id="@+id/personal_btid1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00897B"
+            android:layout_gravity="center"
+            android:text="Next"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/usercrime"
+    android:orientation="vertical"
+    tools:context=".User_regpage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USER   DE"
+            android:layout_gravity="center"
+            android:textSize="45dp"
+            android:textColor="#A50404"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAILS"
+            android:layout_gravity="center"
+            android:textSize="45dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Registration \nPage"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="right"
+        android:layout_marginRight="20dp"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:weightSum="1"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+
+                    android:text="User Name: "
+                    android:textColor="#fff"
+                    android:background="#A50404"
+                    android:layout_marginRight="20dp"
+                    />
+                <EditText
+                    android:id="@+id/ed_userreg1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:background="@drawable/bgshape"
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+
+                    android:textColor="#A50404"
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+
+                    android:text="Address    : "
+                    android:textColor="#fff"
+                    android:background="#A50404"
+                    android:layout_marginRight="20dp"
+                    />
+                <EditText
+                    android:id="@+id/ed_userAddress1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:background="@drawable/bgshape"
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+
+                    android:textColor="#A50404"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:text="Phone  No : "
+                    android:textColor="#fff"
+                    android:background="#A50404"
+                    />
+                <EditText
+                    android:id="@+id/ed_phoneregid1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/bgshape"
+                    android:layout_height="40dp"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:textSize="20dp"
+
+                    android:textColor="#A50404"
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Mail Id        : "
+                    android:textColor="#fff"
+                    android:background="#A50404"
+                    />
+                <EditText
+                    android:id="@+id/mailregid1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/bgshape"
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+                    android:singleLine="true"
+                    android:textColor="#A50404"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:text="Aadhar No : "
+                    android:textColor="#fff"
+                    android:background="#A50404"
+                    android:layout_marginRight="20dp"
+                    />
+                <EditText
+                    android:id="@+id/ed_aadharregid1"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/bgshape"
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+                    android:singleLine="true"
+                    android:inputType="number"
+                    android:maxLength="12"
+                    android:textColor="#A50404"
+                    />
+
+            </LinearLayout>
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+                    android:text="Password: "
+                    android:textColor="#fff"
+                    android:background="#A50404"
+                    />
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    app:passwordToggleEnabled="true"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ed_passregid1"
+                        android:layout_width="match_parent"
+                        android:textColor="#A50404"
+                        android:textSize="20dp"
+                        android:password="true"
+
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bgshape"
+                        android:hint="Enter Password"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="140dp"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Conform Password: "
+                    android:textColor="#fff"
+                    android:background="#A50404"
+                    />
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+
+                    app:passwordToggleEnabled="true"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ed_comformpass_idreg1"
+                        android:layout_width="match_parent"
+                        android:textColor="#A50404"
+                        android:textSize="20dp"
+                        android:password="true"
+
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bgshape"
+                        android:hint="Enter Password"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/bt_submitregid1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Submit"
+                android:textSize="20dp"
+                android:backgroundTint="#6A0202"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

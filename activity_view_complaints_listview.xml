@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".View_Complaints_Listview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/tv_complaint_Listview1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#00897B"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tv_complaint_Listview2"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:textColor="#00897B" />
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/search_icon">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D3FFFFFF"/>
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">-->
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+       >
+
+        <ListView
+            android:id="@+id/listview_id_complaint1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:divider="#232222"
+            android:dividerHeight="3dp"/>
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">-->
+
+
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/search_icon"
+        android:layout_marginTop="190dp"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FDFCFC"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_marginTop="180dp"
+        android:id="@+id/listview_id_complaint1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_icon"
+        android:divider="#232222"
+        android:dividerHeight="3dp"/>-->
+</RelativeLayout>

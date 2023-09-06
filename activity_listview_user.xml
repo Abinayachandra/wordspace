@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+
+    android:padding="10dp"
+    tools:context=".Listview_user">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/policelogo"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00897B"
+        android:textSize="25dp"
+        android:text="Near by Police Station"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@+id/listid_1"
+        android:layout_width="match_parent"
+        android:background="@drawable/listbackground"
+        android:divider="#FB0B0B"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:dividerHeight="3dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
